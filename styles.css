@@ -1,0 +1,57 @@
+@font-face{
+  font-family: savate;
+  src: url(./savate-regular-webfont.woff);
+}
+html{
+  text-align: center;
+}
+
+h2{
+  font-family: savate;
+  color: #b04a30;
+}
+
+h3{
+  font-family: savate;
+  color: #b04a30;
+}
+
+a{
+  font-family: savate;
+  color: #b04a30;
+}
+p{
+  text-align: center;
+}
+
+a:visited{
+  color: #b04a30;
+}
+  #web-ring {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 15px;
+    background-color: rgb(52, 86, 228);
+    border: solid 2px white;
+    font-family: sans-serif;
+  }
+
+  #web-ring a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #web-ring a:hover {
+    text-decoration: underline;
+  }
+.fireflies{
+  width: 400px;
+  height: 400px;
+}
+
+.drawing{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+}
